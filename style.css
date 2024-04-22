@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Honk", system-ui;
+    font-size: 1.5rem;
+}
+.hover-azul li {
+    list-style: none;
+}
+.hover-azul li:hover{
+    background-color: aliceblue;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img{
+    width: min-content;
+    margin: auto;
+}
+
+.maneiro{
+    background-color: aquamarine;
+}
+
+.maneiro li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 15rem;
+    cursor: pointer;
+}
+
+.milk-receita{
+    background-color: gray;
+}
+
+.frapp-receita{
+    background-color: aquamarine;
+}
