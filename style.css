@@ -26,13 +26,15 @@ body{
 }
 
 .maneiro{
+    display: flex;
     background-color: aquamarine;
 }
 
 .maneiro li{
     list-style: none;
     display: inline-block;
-    margin-left: 15rem;
+    justify-content: space-evenly;
+    margin: auto;
     cursor: pointer;
 }
 
@@ -42,4 +44,15 @@ body{
 
 .frapp-receita{
     background-color: aquamarine;
+}
+
+.input-idade{
+    margin: auto;
+    height: 2rem;
+    width: 30rem;
+}
+
+.btn{
+    color:white;
+    background-color: orange;
 }

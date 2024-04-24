@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Milkshake</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
    <nav>
         <ul class="maneiro">
-            <li>Resolvi</li>
-            <li>Criar</li>
-            <li>Esse</li>
-            <li>Menu</li>
-            <li>Maneiro</li>
+            <li><a href="javascript:handleMenuClick();">Resolvi</a></li>
+            <li><a href="javascript:handleMenuClick();">Criar</a></li>
+            <li><a href="javascript:handleMenuClick();">Esse</a></li>
+            <li><a href="javascript:handleMenuClick();">Menu</a></li>
+            <li><a href="javascript:handleMenuClick();">Maneiro</a></li>
             </ul>
     </nav>
     <div class="wrapper">
@@ -27,10 +28,15 @@
         <li>É Bom no frio porém perfeito no calor para dar aquela sensação refrescante</li>
     </ul>
     <img src="src/milkshake.png" class="img">
+    <h1>Antes de prosseguir precisamos ter certeza se você é maior de idade!</h1>
+    <label for="idade">Digite abaixo a sua idade!</label>
+    <input type="number" name="txt_idade" id="idade" class="input-idade">
+    <input type="button" value="Confirmar idade" class="input-idade btn" id="btn_idade">
     <h1>Não confunda milkshake com frappucino!</h1>
     <b>Você quer saber dessa polêmica em que as pessoas andam confundindo essa deliciosa sobremesa com essa outra deliciosa sobremesa?</b>
     <span>Então clique</span>
     <a href="diferenca.html">AQUI</a>
+    
 </div>
 </body>
 </html>
